@@ -8,7 +8,7 @@ root-owned startup file gives remote code execution as root.
 
 - Affected: Blinko 1.8.8 and earlier
 - CWE-22 (Path Traversal)
-- CVSS 3.1: 9.6 Critical (AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H)
+- CVSS 3.1: 9.9 Critical (AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H)
 
 Full write-up and proof of concept: **[HR-blinko-plugin-path-traversal-rce.pdf](HR-blinko-plugin-path-traversal-rce.pdf)**
 
