@@ -1,10 +1,8 @@
 # Blinko: Authenticated Plugin Path Traversal to Root Code Execution
 
-CVE pending (reserved).
+CVE-2026-108980.
 
-Any authenticated Blinko user can abuse the plugin installer's unsanitized `name` value to
-write files outside the plugins directory. The official image runs as root, so overwriting a
-root-owned startup file gives remote code execution as root.
+Any authenticated Blinko user can abuse the plugin installer's unsanitized `name` value to write files outside the plugins directory. The official image runs as root, so overwriting a root-owned startup file gives remote code execution as root.
 
 - Affected: Blinko 1.8.8 and earlier
 - CWE-22 (Path Traversal)
@@ -14,6 +12,4 @@ Full write-up and proof of concept: **[HR-blinko-plugin-path-traversal-rce.pdf](
 
 ## Disclaimer
 
-This proof of concept is for authorized security testing and education only.
-Test only systems that you own or have explicit permission to test. The author
-takes no responsibility for misuse.
+This proof of concept is for authorized security testing and education only. Test only systems that you own or have explicit permission to test. The author takes no responsibility for misuse.
